@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: viettq-config-map
+data:
+  DB_NAME: viettq-db-name
+  DB_USER: viettq-db-user
+  DB_HOST: "postgresql-service.default.svc.cluster.local"
+  DB_PORT: "5432"
